@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: YOUR_DOCKERHUB_USERNAME/nginx-proxy:latest
+          image: ramsha28/nginx-proxy:latest
           ports:
             - containerPort: 80
